@@ -1,0 +1,91 @@
+body {
+    background-image: url("../assets/img/winterCity.jpeg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: black;
+}
+body p {
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-ul {
+    background-color: lightblue;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    padding: 0px;
+    list-style-type: none;
+    border: 1px solid black;
+}
+.nav-li {
+    float: left;
+    display: inline;
+    border-right: 1px solid black;
+}
+
+.nav-a {
+    display: block;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    width: 155px;
+}
+
+.nav-li .nav-a:hover {
+    background-color: azure;
+}
+.left-column {
+    position: absolute;
+    background-color: lightblue;
+    border: 1px solid black;
+    top: 70px;
+    bottom: -1387px;
+    left: 10px;
+    width: 150px;
+    padding: 10px;
+}
+.right-column {
+    position: absolute;
+    background-color: lightblue;
+    border: 1px solid black;
+    top: 70px;
+    bottom: -1387px;
+    right: 10px;
+    width: 150px;
+    padding: 10px;
+}
+.mainbody {
+    position: absolute;
+    background-color: lightblue;
+    border: 1px solid black;
+    top: 70px;
+    left: 185px;
+    right: 185px;
+    padding: 10px;
+}
+.footer {
+    position: absolute ;
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 65px;
+    bottom: -1480px;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+}
+.body-img {
+    height: 200px;
+}
+.bottom-margin {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: -1500px;
+    height: 25px;
+    background-color: red;
+}
+.tableauPlaceholder {
+    
+}
